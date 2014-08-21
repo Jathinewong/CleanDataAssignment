@@ -42,12 +42,12 @@ run_analysis <- function() {
 			subject_activity_mean_std = cbind(subject, activity, measurement_mean_std)
 			
 			## aggregate of the average of each mean and std for each subject and each activity
-			subject_activity_average = 	aggregate(as.matrix(subject_activity_mean_std[,3:68]) ~ 
+			subject_activity_average = aggregate(as.matrix(subject_activity_mean_std[,3:68]) ~ 
 										subject + activity, data=subject_activity_mean_std, mean)
 										
 			## change column names with "avg" for average
-			colnames(subject_activity_average) = c("subject", "activity",  
-													paste("avg_", colnames(measurement)[3:68], sep=""))
+			colnames(subject_activity_average) = 
+					c("subject", "activity", paste("avg_", colnames(measurement)[3:68], sep=""))
 										
 			attach(subject_activity_average)
 			
