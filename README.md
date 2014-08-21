@@ -32,7 +32,7 @@ Instruction:
 6.	Extracts only the measurements on the mean and standard deviation for each measurement.
 7.	Combine the subject, activity and measurement of mean and standard deviation data to create subject_activity_mean_std data set
 8.	Loop through the subject_activity_mean_std to extract mean and standard deviation to form a matrix.
-9.	Use aggregate function to compute the average of each of the mean and standard deviation for each subject and each activity.
+9.	Use aggregate function to compute the average of each mean and each standard deviation for each subject and each activity.
 10.	Write the above aggregate to a file, subject_activity_average.
 
 
