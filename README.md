@@ -23,9 +23,16 @@ Program Discription
 Name : run_analysis.R
 
 Instruction:
-1. Merges the training and the test sets to create one measurement data set.
-2. Merges the training activity and test activity sets to create one activity data set.
-3. Recode the activity code in the activity data set to activity labels.
-3. Merges the training subject and test subject sets to create one subject data set.
-4. Extracts only the measurements on the mean and standard deviation column name for each measurement.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
+1.	Merges the training and the test sets to create one measurement data set.
+2.	Merges the training activity and test activity sets to create one activity data set.
+3.	Update the activity code in the activity data set to activity labels.
+4.	Merges the training subject and test subject sets to create one subject data set.
+5.	Extracts only the measurements on the mean and standard deviation column name for each measurement.
+6.	Extracts only the measurements on the mean and standard deviation for each measurement.
+7.	Combine the subject, activity and measurement of mean and standard deviation data to create subject_activity_mean_std data set
+8.	Loop through the subject_activity_mean_std to extract mean and standard deviation to form a matrix.
+9.	Use aggregate function to compute the average of each of the mean and standard deviation for each subject and each activity.
+10.	Write the above aggregate to a file, subject_activity_average.
+
+
