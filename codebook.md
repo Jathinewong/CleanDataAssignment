@@ -1,82 +1,82 @@
-Data Dictationary - Average of Mean and Standard Deviation of Human Activity Data
+Data Dictationary - Average of Mean and Standard Deviation for each subject and each activity
 								
 	SUBJECT_TYPE				5
 			Subject Type
-								train 	Subject was selected for generating the training data
-								test	Subject was selected for generating the test data
+						train 	Subject was selected for generating the training data
+						test	Subject was selected for generating the test data
 						
-	SUBJECT 					2
+	SUBJECT 				2
 			Subject identifier
-								1..30 	Integer as an identifier
+						1..30 	Integer as an identifier
 						
-	ACTIVITY					18
+	ACTIVITY				18
 			Activities that the subject performed
-								WALKING
-								WALKING_UPSTAIRS
-								WALKING_DOWNSTAIRS
-								SITTING
-								STANDING
-								LAYING
+						WALKING
+						WALKING_UPSTAIRS
+						WALKING_DOWNSTAIRS
+						SITTING
+						STANDING
+						LAYING
 						
 	avg_tBodyAcc-mean()-X			12
 			Average of the mean value of the subject's body acceleration signal of the activity of X dimension 
-									-1..1
+						-1..1
 						
 	avg_tBodyAcc-mean()-Y   		12       
 			Average of the mean value of the subject's body acceleration signal of the activity of Y dimension
-									-1..1
+						-1..1
 				
 	avg_tBodyAcc-mean()-Z    		12      
 			Average of the mean value of the subject's body acceleration signal of the activity of Z dimension
-									-1..1
+						-1..1
 				
 	avg_tGravityAcc-mean()-X  		12     
 			Average of the mean value of the subject gravity acceleration signal of the activity of X dimension
-									-1..1	
+						-1..1	
 				
 	avg_tGravityAcc-mean()-Y    	12   
 			Average of the mean value of the subject gravity acceleration signal of the activity of Y dimension
-									-1..1
+						-1..1
 				
 	avg_tGravityAcc-mean()-Z    	12  
 			Average of the mean value of the subject gravity acceleration signal of the activity of Z dimension
-									-1..1	
+						-1..1	
 					
 	avg_tBodyAccJerk-mean()-X  		12       
 			Average of the mean value of the subject's body jerk signal of the activity of X dimension
-									-1..1	
+						-1..1	
 					
 	avg_tBodyAccJerk-mean()-Y  		12      
 			Average of the mean value of the subject's body jerk signal of the activity of Y dimension
-									-1..1
+						-1..1
 					
 	avg_tBodyAccJerk-mean()-Z  		12      
 			Average of the mean value of the subject's body jerk signal of the activity of Z dimension
-									-1..1
+						-1..1
 					
 	avg_tBodyGyro-mean()-X  		12         
 			Average of the mean value of the subject's body gyroscope signal of the activity of X dimension
-									-1..1
+						-1..1
 					
 	avg_tBodyGyro-mean()-Y  		12         
 			Average of the mean value of the subject's body gyroscope signal of the activity of Y dimension
-									-1..1
+						-1..1
 				
 	avg_tBodyGyro-mean()-Z  		12    
 			Average of the mean value of the subject's body gyroscope signal of the activity of Z dimension
-									-1..1
+						-1..1
 				
-	avg_tBodyGyroJerk-mean()-X  	12
+	avg_tBodyGyroJerk-mean()-X  		12
 			Average of the mean value of the subject's body gyroscope jerk signal of the activity of X dimension
-									-1..1	
+						-1..1	
 					
-	avg_tBodyGyroJerk-mean()-Y  	12    
+	avg_tBodyGyroJerk-mean()-Y  		12    
 			Average of the mean value of the subject's body gyroscope jerk signal of the activity of Y dimension
-									-1..1
-				
-	avg_tBodyGyroJerk-mean()-Z  	12
+						-1..1
+					
+	avg_tBodyGyroJerk-mean()-Z  		12
 			Average of the mean value of the subject's body gyroscope jerk signal of the activity of Z dimension
-									-1..1
+						-1..1
 					
 	avg_tBodyAccMag-mean()  		12
 			Average of the mean value of the subject's body acceleration magnitude signal of the activity
