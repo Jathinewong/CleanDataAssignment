@@ -5,18 +5,18 @@ Data Dictationary - Average of Mean and Standard Deviation for each subject and 
 						train 	Subject was selected for generating the training data
 						test	Subject was selected for generating the test data
 						
-	SUBJECT 				2
+	SUBJECT 					2
 			Subject identifier
-						1..30 	Integer as an identifier
+							1..30 	Integer as an identifier
 						
-	ACTIVITY				18
+	ACTIVITY					18
 			Activities that the subject performed
-						WALKING
-						WALKING_UPSTAIRS
-						WALKING_DOWNSTAIRS
-						SITTING
-						STANDING
-						LAYING
+							WALKING
+							WALKING_UPSTAIRS
+							WALKING_DOWNSTAIRS
+							SITTING
+							STANDING
+							LAYING
 						
 	avg_tBodyAcc-mean()-X			12
 			Average of the mean value of the subject's body acceleration signal of the activity of X dimension 
