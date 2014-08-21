@@ -46,13 +46,15 @@ run_analysis <- function() {
 										subject + activity, data=subject_activity_mean_std, mean)
 										
 			## change column names with "avg" for average
-			colnames(subject_activity_average) = c("subject", "activity",  paste("avg_", colnames(measurement)[3:68], sep=""))
+			colnames(subject_activity_average) = c("subject", "activity",  
+													paste("avg_", colnames(measurement)[3:68], sep=""))
 										
 			attach(subject_activity_average)
 			
 			## check for file exists
 			if ( file.exists("subject_activity_average.txt") ) {
-					print("Failed to write to file \"subject_activity_average.txt\", file already exists", quote=FALSE)
+					print("Failed to write to file \"subject_activity_average.txt\", file already exists", 
+							quote=FALSE)
 			}
 			else {
 					write.table(subject_activity_average, "./subject_activity_average.txt", 
