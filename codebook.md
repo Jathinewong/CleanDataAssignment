@@ -1,16 +1,11 @@
 Data Dictationary - Average of Mean and Standard Deviation for each subject and each activity
 								
-	SUBJECT_TYPE					5
-			Subject Type
-									train 	Subject was selected for generating the training data
-									test	Subject was selected for generating the test data
-						
 	SUBJECT 						2
-			Subject identifier
+		Subject identifier
 									1..30 	Integer as an identifier
 						
 	ACTIVITY						18
-			Activities that the subject performed
+		Activities that the subject performed
 									WALKING
 									WALKING_UPSTAIRS
 									WALKING_DOWNSTAIRS
