@@ -50,7 +50,7 @@ run_analysis <- function() {
 			write.table(subject_activity_average, "./subject_activity_average.txt", 
 						row.name=FALSE, quote=FALSE)
 						
-			print("Wrote subject_activity_average file to current directory")
+			print("Wrote subject_activity_average.txt file to current directory")
 			
 }
 
